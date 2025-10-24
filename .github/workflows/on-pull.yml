@@ -1,0 +1,40 @@
+name: Slammed Detailing
+
+on:
+  pull_request:
+    branches:
+      - develop
+      - main
+
+env:
+  NODE_ENV: development
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '18.x'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Additional steps for develop branch
+        if: github.base_ref == 'develop' 
+        run: echo "Running additional steps for develop branch"
+
+      - name: Additional steps for main branch
+        if: github.base_ref == 'main'
+        run: echo "Running additional steps for main branch"

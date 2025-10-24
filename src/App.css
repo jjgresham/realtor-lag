@@ -1,0 +1,115 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #CBC3B4;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  background: linear-gradient(to left, #222222, #FF6600);
+  position: relative;
+}
+
+.logo {
+  height: 125px;
+}
+
+/* Hamburger Button */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Navigation */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+  color: #222222;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(to left, #222222, #FF6600);
+    text-align: center;
+    max-height: 0;  /* Start hidden */
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .nav.open {
+    max-height: 300px; /* Adjust based on menu size */
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav ul li {
+    display: block;
+    padding: 10px 0;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: #222222;
+  color: #CBC3B4;
+  padding: 1rem;
+  font-size: 0.9rem;
+  text-align: start;
+}
+
+.social-icons a {
+  color: #CBC3B4;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #FEB249; /* Adjust hover color */
+}
