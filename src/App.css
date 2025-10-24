@@ -1,9 +1,17 @@
+/* 
+#674f2D - Dark Brown
+#9D825D - Medium Brown
+#D2B48C - Light Brown
+#E4D5B4 - Beige
+#FAF9F0 - Off White
+ */
+
 /* App.css */
 body, html {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background: #CBC3B4;
+  background: #FAF9F0;
   color: #333;
 }
 
@@ -13,13 +21,43 @@ body, html {
   min-height: 100vh;
 }
 
+/* Section Formats */
+.section {
+  padding: 4rem 2rem;
+  color: #6c665a;
+}
+
+.section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+  .section-primary {
+  background: #FAF9F0;
+
+}
+
+  .section-secondary {
+  background: #E4D5B4;
+}
+
+
+  .section-tertiary {
+  background: #D2B48C;
+}
+
+  .section-quaternary {
+  background: #9D825D;
+}
+
 /* Header */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem 2rem;
-  background: linear-gradient(to left, #222222, #FF6600);
+  padding-right: 2rem;
+  background: linear-gradient(to left, #9D825D, #D2B48C);
   position: relative;
 }
 
@@ -97,7 +135,7 @@ body, html {
 
 /* Footer */
 .footer {
-  background-color: #222222;
+  background-color: #674f2D;
   color: #CBC3B4;
   padding: 1rem;
   font-size: 0.9rem;

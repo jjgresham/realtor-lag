@@ -1,3 +1,11 @@
+/* 
+#674f2D - Dark Brown
+#9D825D - Medium Brown
+#D2B48C - Light Brown
+#E4D5B4 - Beige
+#F5F5DC - Off White
+ */
+
 /* Home.css */
 .home {
     text-align: center;
@@ -35,7 +43,7 @@
   
   .cta-button {
     display: inline-block;
-    background: #FF9E42;
+    background: pink;
     color: #fff;
     padding: 12px 24px;
     text-decoration: none;
@@ -45,20 +53,7 @@
   }
   
   .cta-button:hover {
-    background: #FF6600;
-  }
-  
-  /* Services Section */
-  .services {
-    background: #CBC3B4;
-    padding: 4rem 2rem;
-    color: #333;
-  }
-  
-  .services h2 {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 2rem;
+    background: lightblue;
   }
   
   .service-list {

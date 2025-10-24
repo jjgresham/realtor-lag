@@ -27,8 +27,8 @@ function App() {
       <div className="container">
         <header className="header">
           <img
-            src="/svg-logo.svg"
-            alt="Slammed Detailing Logo"
+            src="/logo.png"
+            alt="Olympus Real Estate Logo"
             className="logo"
           />
 
@@ -47,17 +47,17 @@ function App() {
               </li>
               <li>
                 <Link to="/pricing" onClick={closeMenu}>
-                  Services & Pricing
+                  MLS Listings
                 </Link>
               </li>
               <li>
                 <Link to="/contact" onClick={closeMenu}>
-                  Service Area
+                  Contact Me
                 </Link>
               </li>
               <li>
                 <Link to="/gallery" onClick={closeMenu}>
-                  Detail Gallery
+                  Mortgage Calculator
                 </Link>
               </li>
             </ul>

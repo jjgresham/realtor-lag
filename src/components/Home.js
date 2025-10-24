@@ -15,8 +15,53 @@ function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="services">
+      <section className="section section-primary">
         <h2>Our Services</h2>
+        <div className="service-list">
+          <div className="service">
+            <h3>Auto Detailing</h3>
+          </div>
+          <div className="service">
+            <h3>Ceramic Coatings</h3>
+          </div>
+          <div className="service">
+            <h3>Paint Correction</h3>
+          </div>
+        </div>
+      </section>
+
+            <section className="section section-secondary">
+        <h2>Our Services 2</h2>
+        <div className="service-list">
+          <div className="service">
+            <h3>Auto Detailing</h3>
+          </div>
+          <div className="service">
+            <h3>Ceramic Coatings</h3>
+          </div>
+          <div className="service">
+            <h3>Paint Correction</h3>
+          </div>
+        </div>
+      </section>
+
+            <section className="section section-tertiary">
+        <h2>Our Services 3</h2>
+        <div className="service-list">
+          <div className="service">
+            <h3>Auto Detailing</h3>
+          </div>
+          <div className="service">
+            <h3>Ceramic Coatings</h3>
+          </div>
+          <div className="service">
+            <h3>Paint Correction</h3>
+          </div>
+        </div>
+      </section>
+
+            <section className="section section-quaternary">
+        <h2>Our Services 4</h2>
         <div className="service-list">
           <div className="service">
             <h3>Auto Detailing</h3>
