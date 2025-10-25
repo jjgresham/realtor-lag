@@ -14,7 +14,7 @@
 .mortgage-calculator h2 {
   font-size: 1.875rem;
   font-weight: bold;
-  color: #1f2937;
+  color: #6c665a;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -67,7 +67,7 @@
   }
   
   .cta-button:hover {
-    background: #723738;
+    background: #7D8A6E;
   }
 
 .results {
@@ -121,7 +121,7 @@
 .result-total .result-value {
   font-size: 1.125rem;
   font-weight: bold;
-  color: #2563eb;
+  color: #7D8A6E;
 }
 
 /* Responsive Design */

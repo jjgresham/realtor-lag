@@ -29,13 +29,13 @@ function App() {
         {/* Top Info Strip*/}
         <div class="top-strip">
           <span class="strip-span"> ✆ 801-494-3655</span>
-          <span class="strip-span"> ✉ laurensemail@gmail.com</span>
+          <span class="strip-span"> ✉ nestedbylauren@gmail.com</span>
           <span class="strip-span"> More Than Just an Agent—Your Trusted Partner and Counselor Through Every Real Estate Decision</span>
         </div>
 
         <header className="header">
           <img
-            src="/logo.png"
+            src="/main-logo.png"
             alt="Olympus Real Estate Logo"
             className="logo"
           />
@@ -54,7 +54,7 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link to="/pricing" onClick={closeMenu}>
+                <Link to="https://www.utahrealestate.com/index/public.index" onClick={closeMenu}>
                   MLS Listings
                 </Link>
               </li>
@@ -81,7 +81,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/pricing" element={<Pricing />} />
             <Route path="/mortgage-calculator" element={<MortgageCalculator />} />
           </Routes>
         </main>

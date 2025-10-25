@@ -1,10 +1,17 @@
+/* 
+#F2EDE4 - Light Beige Background
+#D9CBB7 - Soft Tan
+#B3BFA5 - Muted Green
+#7D8A6E - Olive Green
+*/
+
 /* App.css */
 body, html {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
   background: #FAF9F0;
-  color: #333;
+  color: #6c665a;
 }
 
 .container {
@@ -14,7 +21,7 @@ body, html {
 }
 
 .top-strip {
-  background-color: #723738;
+  background-color: #7D8A6E;
   color: #FAF9F0;
   font-size: 0.95rem;
   padding: 12px 40px;
@@ -73,23 +80,6 @@ body, html {
   }
 }
 
-@media (max-width: 768px) {
-  .top-strip {
-    font-size: 0.875rem;
-    padding: 10px 20px;
-    gap: 1rem;
-  }
-  
-  .strip-span {
-    flex-basis: 100%;
-  }
-  
-  .strip-span:last-child {
-    font-size: 0.85rem;
-    line-height: 1.4;
-    white-space: normal;
-  }
-}
 
 @media (max-width: 480px) {
   .top-strip {
@@ -104,6 +94,10 @@ body, html {
   color: #6c665a;
 }
 
+.section p {
+  text-align: center;
+}
+
 .section h2 {
   font-size: 2rem;
   text-align: center;
@@ -116,16 +110,16 @@ body, html {
 }
 
   .section-secondary {
-  background: #E4D5B4;
+  background: #F2EDE4;
 }
 
 
   .section-tertiary {
-  background: #D2B48C;
+  background: #D9CBB7;
 }
 
   .section-quaternary {
-  background: #FFE4E1;
+  background: #B3BFA5;
 }
 
 /* Header */
@@ -134,7 +128,7 @@ body, html {
   justify-content: space-between;
   align-items: center;
   padding-right: 2rem;
-  background: linear-gradient(to left, #9D825D, #D2B48C);
+  background: #F2EDE4;
   position: relative;
 }
 
@@ -148,7 +142,7 @@ body, html {
   font-size: 2rem;
   background: none;
   border: none;
-  color: #fff;
+  color: #FAF9F0;
   cursor: pointer;
   padding: 10px;
 }
@@ -167,18 +161,34 @@ body, html {
 }
 
 .nav ul li a {
-  color: #fff;
+  color: #6c665a;
   text-decoration: none;
   font-size: 1.1rem;
   transition: color 0.3s;
 }
 
 .nav ul li a:hover {
-  color: #723738;
+  color: #B3BFA5;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+    .top-strip {
+    font-size: 0.875rem;
+    padding: 10px 20px;
+    gap: 1rem;
+  }
+  
+  .strip-span {
+    flex-basis: 100%;
+  }
+  
+  .strip-span:last-child {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    white-space: normal;
+  }
+
   .hamburger {
     display: block;
   }
@@ -211,19 +221,19 @@ body, html {
 
 /* Footer */
 .footer {
-  background-color: #723738;
-  color: #CBC3B4;
+  background-color: #7D8A6E;
+  color: #FAF9F0;
   padding: 1rem;
   font-size: 0.9rem;
   text-align: start;
 }
 
 .social-icons a {
-  color: #CBC3B4;
+  color: #FAF9F0;
   font-size: 1.5rem;
   transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #723738; /* Adjust hover color */
+  color: #7D8A6E; /* Adjust hover color */
 }

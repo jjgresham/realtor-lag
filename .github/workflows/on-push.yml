@@ -1,4 +1,4 @@
-name: Slammed Detailing
+name: Nested By Lauren - Push Workflow
 
 on:
   push:
@@ -39,8 +39,6 @@ jobs:
       - name: Run build
         if: github.ref == 'refs/heads/main'
         run: npm run build --prod
-        env:
-          REACT_APP_GOOGLE_API_KEY: ${{ secrets.REACT_APP_GOOGLE_API_KEY }}
 
 
       - name: Deploy to S3
@@ -49,6 +47,6 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-west-2'
-          AWS_S3_BUCKET: slammed-detailing.com
+          AWS_S3_BUCKET: nestedbylauren.com
           SOURCE_DIR: 'build/'
         run: bash scripts/deploy-site.sh
