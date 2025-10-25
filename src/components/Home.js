@@ -19,7 +19,7 @@ function Home() {
 <section class="about-section">
                 <img
                 src={professionalPhoto}
-                alt="Professional Photo"
+                alt="Professional"
                 className="logo"
               />
       <h2>
