@@ -1,0 +1,137 @@
+/* Home.css */
+.home {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+    
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: url('../assets/hero-bg.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: #B3BFA5;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #6c665a;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service p {
+    font-size: 1rem;
+  }
+
+  .about-section {
+  background-color: #F9F8F6; /* soft warm neutral background */
+  color: #6c665a; /* dark sage for text */
+  padding: 3rem 2rem;
+  border-radius: 1.5rem;
+  max-width: 900px;
+  margin: 4rem auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  line-height: 1.7;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.about-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  color: #6c665a; /* deeper sage for headings */
+  text-align: center;
+}
+
+.about-section img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.about-section p {
+  font-size: 1.125rem;
+  color: #4B4B4B;
+  margin-bottom: 1.25rem;
+  text-align: justify;
+}
+
+.about-section blockquote {
+  border-left: 4px solid #C0D1C2;
+  background-color: #EFF3F0;
+  color: #4A6650;
+  font-style: italic;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.75rem;
+}
+
+.about-section .signature {
+  text-align: right;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: #3F5C4A;
+  margin-top: 1.5rem;
+}
+
+  @media (max-width: 768px) {
+    .nav {
+      z-index: 999; /* Ensure it's above other elements */
+    }
+  }
+  
+  

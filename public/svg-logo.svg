@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nested by Lauren logo">
+  <defs>
+    <style>
+      .st0{fill:none;stroke:#7F9B86;stroke-width:28;stroke-linecap:round;stroke-linejoin:round}
+      .st1{fill:#7F9B86}
+      .text-large{font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; font-weight:700; font-size:150px; fill:#7F9B86; letter-spacing:12px}
+      .text-small{font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; font-weight:600; font-size:54px; fill:#7F9B86; letter-spacing:8px}
+    </style>
+  </defs>
+
+  <!-- background circle (transparent) -->
+  <rect width="1200" height="1200" fill="#F9F8F6"/>
+
+  <!-- emblem: circle -->
+  <g transform="translate(0,40)">
+    <circle cx="600" cy="260" r="140" fill="none" stroke="#7F9B86" stroke-width="20"/>
+    <!-- house outline -->
+    <path class="st0" d="M520 220 L600 160 L680 220" />
+    <path class="st0" d="M540 220 L540 300 L660 300 L660 220" />
+    <!-- window -->
+    <rect x="580" y="230" width="20" height="20" fill="#7F9B86" />
+    <rect x="605" y="230" width="20" height="20" fill="#7F9B86" />
+    <rect x="580" y="255" width="20" height="20" fill="#7F9B86" />
+    <rect x="605" y="255" width="20" height="20" fill="#7F9B86" />
+    <!-- nest curves -->
+    <path class="st0" d="M480 310 C520 340 680 340 720 310" />
+    <path class="st0" d="M500 335 C560 360 640 360 700 335" />
+    <path class="st0" d="M520 360 C580 380 640 380 700 360" />
+  </g>
+
+  <!-- Wordmark -->
+  <text x="600" y="680" text-anchor="middle" class="text-large">NESTED</text>
+  <text x="600" y="760" text-anchor="middle" class="text-small">BY LAUREN</text>
+</svg>
