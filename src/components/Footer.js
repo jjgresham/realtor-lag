@@ -22,21 +22,21 @@ const Footer = () => {
         {/* Right side - Social Icons */}
         <div className="footer-social">
           <a
-            href=""
+            href="https://www.tiktok.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaFacebook />
           </a>
           <a
-            href=""
+            href="https://www.facebook.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram />
           </a>
           <a
-            href=""
+            href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
