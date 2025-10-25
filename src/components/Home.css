@@ -12,7 +12,7 @@
     font-family: 'Arial', sans-serif;
     color: #fff;
   }
-  
+    
   .hero {
     position: relative;
     width: 100%;
@@ -53,7 +53,7 @@
   }
   
   .cta-button:hover {
-    background: lightblue;
+    background: #723738;
   }
   
   .service-list {

@@ -1,11 +1,3 @@
-/* 
-#674f2D - Dark Brown
-#9D825D - Medium Brown
-#D2B48C - Light Brown
-#E4D5B4 - Beige
-#FAF9F0 - Off White
- */
-
 /* App.css */
 body, html {
   margin: 0;
@@ -19,6 +11,91 @@ body, html {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.top-strip {
+  background-color: #723738;
+  color: #FAF9F0;
+  font-size: 0.95rem;
+  padding: 12px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.strip-span {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+/* Add some spacing after the icons */
+.strip-span::first-line {
+  margin-right: 0.5rem;
+}
+
+/* Make the tagline stand out a bit more */
+.strip-span:last-child {
+  font-weight: 500;
+  font-style: italic;
+  border-left: 2px solid rgba(250, 249, 240, 0.3);
+  padding-left: 2rem;
+  margin-left: 1rem;
+}
+
+/* Hover effect for contact info */
+.strip-span:not(:last-child) {
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.strip-span:not(:last-child):hover {
+  opacity: 0.85;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .top-strip {
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+  
+  .strip-span:last-child {
+    flex-basis: 100%;
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 0.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(250, 249, 240, 0.3);
+  }
+}
+
+@media (max-width: 768px) {
+  .top-strip {
+    font-size: 0.875rem;
+    padding: 10px 20px;
+    gap: 1rem;
+  }
+  
+  .strip-span {
+    flex-basis: 100%;
+  }
+  
+  .strip-span:last-child {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-strip {
+    font-size: 0.8rem;
+    padding: 8px 15px;
+  }
 }
 
 /* Section Formats */
@@ -48,7 +125,7 @@ body, html {
 }
 
   .section-quaternary {
-  background: #9D825D;
+  background: #FFE4E1;
 }
 
 /* Header */
@@ -80,7 +157,7 @@ body, html {
 .nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 3rem;
   padding: 0;
   margin: 0;
 }
@@ -97,7 +174,7 @@ body, html {
 }
 
 .nav ul li a:hover {
-  color: #222222;
+  color: #723738;
 }
 
 /* Responsive Styles */
@@ -111,7 +188,6 @@ body, html {
     top: 100%;
     right: 0;
     width: 100%;
-    background: linear-gradient(to left, #222222, #FF6600);
     text-align: center;
     max-height: 0;  /* Start hidden */
     overflow: hidden;
@@ -135,7 +211,7 @@ body, html {
 
 /* Footer */
 .footer {
-  background-color: #674f2D;
+  background-color: #723738;
   color: #CBC3B4;
   padding: 1rem;
   font-size: 0.9rem;
@@ -149,5 +225,5 @@ body, html {
 }
 
 .social-icons a:hover {
-  color: #FEB249; /* Adjust hover color */
+  color: #723738; /* Adjust hover color */
 }

@@ -61,7 +61,7 @@
   }
   
   .contact-item a:hover {
-    color: lightblue;
+    color: #723738;
   }
   
   /* Contact Form */
@@ -115,7 +115,7 @@
   }
   
   .cta-button:hover {
-    background: #d62839;
+    background: #723738;
   }
 
 .service-area {

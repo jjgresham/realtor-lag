@@ -8,30 +8,30 @@ function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-overlay">
-          <h1>Slammed Detailing</h1>
-          <p>Bringing out the best in your ride, one detail at a time.</p>
+          <h1>Lauren Gresham Real Estate</h1>
+          <p>Reach New Heights in Homeownership.</p>
           <Link to="/pricing" className="cta-button">Book Now</Link>
         </div>
       </section>
 
       {/* Services Section */}
       <section className="section section-primary">
-        <h2>Our Services</h2>
+        <h2>Section One</h2>
         <div className="service-list">
           <div className="service">
-            <h3>Auto Detailing</h3>
+            <h3>Selling</h3>
           </div>
           <div className="service">
-            <h3>Ceramic Coatings</h3>
+            <h3>Buying</h3>
           </div>
           <div className="service">
-            <h3>Paint Correction</h3>
+            <h3>Talking</h3>
           </div>
         </div>
       </section>
 
             <section className="section section-secondary">
-        <h2>Our Services 2</h2>
+        <h2>Section Two</h2>
         <div className="service-list">
           <div className="service">
             <h3>Auto Detailing</h3>
@@ -46,31 +46,23 @@ function Home() {
       </section>
 
             <section className="section section-tertiary">
-        <h2>Our Services 3</h2>
+        <h2>Section Three</h2>
         <div className="service-list">
           <div className="service">
-            <h3>Auto Detailing</h3>
+            <h3>Just a whole bunch of random text!</h3>
           </div>
-          <div className="service">
-            <h3>Ceramic Coatings</h3>
-          </div>
-          <div className="service">
-            <h3>Paint Correction</h3>
-          </div>
+
         </div>
       </section>
 
             <section className="section section-quaternary">
-        <h2>Our Services 4</h2>
+        <h2>Section Four</h2>
         <div className="service-list">
           <div className="service">
             <h3>Auto Detailing</h3>
           </div>
           <div className="service">
             <h3>Ceramic Coatings</h3>
-          </div>
-          <div className="service">
-            <h3>Paint Correction</h3>
           </div>
         </div>
       </section>
