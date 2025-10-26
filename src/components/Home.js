@@ -11,7 +11,7 @@ function Home() {
         <div className="hero-overlay">
           <h1>Nested By Lauren</h1>
           <p>Helping you find your perfect nest!</p>
-          <Link to="/pricing" className="cta-button">Book Now</Link>
+          <Link to="/contact" className="cta-button">Let's Chat</Link>
         </div>
       </section>
 
