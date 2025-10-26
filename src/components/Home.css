@@ -23,7 +23,7 @@
   }
   
   .hero h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: bold;
     margin-bottom: 1rem;
   }
@@ -65,7 +65,7 @@
   }
   
   .service h3 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
   }
   
@@ -86,8 +86,7 @@
 }
 
 .about-section h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.25rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   color: #6c665a; /* deeper sage for headings */
   text-align: center;
