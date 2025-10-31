@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Home.css';
-import professionalPhoto from '../assets/professional_photo.png';
+import professionalPhoto from '../assets/professional_photo_home.jpg';
 
 
 function Home() {
