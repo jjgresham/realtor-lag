@@ -93,6 +93,8 @@
 }
 
 .about-section img {
+  width: 270px;
+  height: 270px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);

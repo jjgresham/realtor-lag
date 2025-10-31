@@ -44,8 +44,8 @@
 }
 
 .agent-photo {
+  height: 350px;
   border-radius: 50%;
-  object-fit: cover;
   margin: 0 auto 1.5rem;
   border: 4px solid #6c665a;
 }
@@ -73,12 +73,12 @@
 .contact-details {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .contact-card {
   background: white;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s, box-shadow 0.2s;
