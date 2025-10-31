@@ -44,8 +44,6 @@
 }
 
 .agent-photo {
-  width: 180px;
-  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 1.5rem;
@@ -134,11 +132,6 @@
   .contact-container {
     grid-template-columns: 1fr;
     gap: 2rem;
-  }
-
-  .agent-photo {
-    width: 150px;
-    height: 150px;
   }
 
   .contact-content {

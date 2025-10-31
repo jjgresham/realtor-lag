@@ -1,5 +1,5 @@
 import './Contact.css';
-import professionalPhoto from '../assets/professional_photo.png';
+import professionalPhoto from '../assets/professional_photo_contact.jpg';
 
 function Contact() {
   return (
