@@ -23,7 +23,7 @@ function Home() {
                 className="logo"
               />
       <h2>
-        Hi, I’m Lauren 👋
+        Hi, I’m Lauren !
       </h2>
       <div>
         <p>
