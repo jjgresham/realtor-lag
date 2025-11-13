@@ -20,6 +20,7 @@ function Contact() {
             />
             <h2>Lauren Gresham</h2>
             <p className="agent-title">Real Estate Agent</p>
+            <p className="agent-title">License #: 14253188</p>
             <p className="agent-bio">
               Former educator bringing dedication and attention to detail 
               to help you navigate your real estate journey.
