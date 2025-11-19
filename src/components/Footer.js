@@ -49,6 +49,20 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2025 Nested By Lauren | All rights reserved</p>
       </div>
+      {/* Bottom banner advert */}
+      <div className="footer-banner">
+        <a
+          className="footer-banner-link"
+          href="https://www.linkedin.com/in/jordan-james-gresham/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Built by Jordan Gresham — LinkedIn"
+        >
+          <span className="jg-dot">JG</span>
+          <span>Built by: <br/> Jordan Gresham</span>
+          <span className="banner-text">Want an website like this?<br/> Please click here & reach out!</span>
+        </a>
+      </div>
     </footer>
   );
 };

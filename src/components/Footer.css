@@ -54,6 +54,42 @@
   font-size: 0.8rem;
 }
 
+/* Bottom banner advert */
+.footer-banner {
+  margin-top: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-banner-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+
+.jg-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1f1f1f;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+.banner-text {
+  opacity: 0.95;
+}
+
 /* Add mobile-specific styles */
 @media (max-width: 768px) {
   .footer-content {
