@@ -60,7 +60,7 @@ const Footer = () => {
         >
           <span className="jg-dot">JG</span>
           <span>Built by: <br/> Jordan Gresham</span>
-          <span className="banner-text">Want an website like this?<br/> Please click here & reach out!</span>
+          <span className="banner-text">Want a website like this?<br/> Please click here & reach out!</span>
         </a>
       </div>
     </footer>
