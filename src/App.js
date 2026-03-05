@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import MortgageCalculator from './components/MortgageCalculator';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import Blog from './components/Blog';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -55,7 +56,7 @@ function App() {
               </li>
               <li>
                 <Link to="https://www.utahrealestate.com/index/public.index" onClick={closeMenu}>
-                  MLS Listings
+                  Search Homes
                 </Link>
               </li>
               <li>
@@ -82,6 +83,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/mortgage-calculator" element={<MortgageCalculator />} />
+            <Route path="/gallery" element={<Blog />} />
           </Routes>
         </main>
 
