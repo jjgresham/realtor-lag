@@ -36,7 +36,7 @@ function App() {
         <header className="header">
           <img
             src="/main-logo.png"
-            alt="Olympus Real Estate Logo"
+            alt="Lauren Gresham - Nested By Lauren, Utah Real Estate Agent"
             className="logo"
           />
 

@@ -19,7 +19,7 @@ function Home() {
 <section class="about-section">
                 <img
                 src={professionalPhoto}
-                alt="Professional"
+                alt="Lauren Gresham, Utah real estate agent serving Salt Lake City and Utah Valley"
                 className="logo"
               />
       <h2>
@@ -27,16 +27,16 @@ function Home() {
       </h2>
       <div>
         <p>
-          I’m so excited to help others find their place to call home. While I’m a new real estate
+          I’m so excited to help others find their place to call home. Based in Utah, I work with buyers and sellers across Salt Lake City, Utah Valley, and surrounding communities. While I’m a new real estate
           agent, my journey with real estate started long before I earned my license. I’ve spent
           years investing in and managing properties, working with rentals, and helping others
-          navigate the market with confidence.
+          navigate the Utah market with confidence.
         </p>
 
         <p>
           I’ve always loved working with people and understanding what makes them feel comfortable
           and confident in their decisions. Whether I’m helping first-time buyers find the perfect
-          fit, assisting investors in spotting great opportunities, or connecting with families
+          fit in Salt Lake County or Utah County, assisting investors in spotting great opportunities, or connecting with families
           looking for their next space to grow, I approach every relationship with care, honesty, and
           attention to detail.
         </p>
@@ -47,7 +47,7 @@ function Home() {
         </blockquote>
 
         <p>
-          When I’m not working, I love spending time with my family, exploring local neighborhoods,
+          When I’m not working, I love spending time with my family, exploring local Utah neighborhoods,
           and staying inspired by new design and market trends. I’m passionate about what I do, and
           I’d love the opportunity to help you find your next home, investment, or space to grow.
         </p>
