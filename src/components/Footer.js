@@ -17,7 +17,7 @@ const Footer = () => {
         </span>
         {/* Middle - Logo */}
         <div className="footer-logo">
-          <img src="/logo.png" alt="Olympus Real Estate Logo" className="logo" />
+          <img src="/logo.png" alt="Nested By Lauren - Utah Real Estate Agent" className="logo" />
         </div>
         {/* Right side - Social Icons */}
         <div className="footer-social">
@@ -47,7 +47,7 @@ const Footer = () => {
 
       {/* Bottom - Copyright */}
       <div className="footer-bottom">
-        <p>© 2025 Nested By Lauren | All rights reserved</p>
+        <p>© 2025–2026 Nested By Lauren | All rights reserved</p>
       </div>
       {/* Bottom banner advert */}
       <div className="footer-banner">

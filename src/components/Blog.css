@@ -1,0 +1,148 @@
+/* Blog.css */
+.blog-page {
+  padding: 3rem 2rem 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blog-page h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: #6c665a;
+  margin-bottom: 0.25rem;
+}
+
+.blog-page .blog-subtitle {
+  text-align: center;
+  color: #B3BFA5;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0.05em;
+}
+
+/* Post Card */
+.blog-post {
+  background: #F2EDE4;
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.blog-post .post-tag {
+  display: inline-block;
+  background: #B3BFA5;
+  color: #fff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 0.75rem;
+}
+
+.blog-post .post-title {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #6c665a;
+  margin: 0 0 0.25rem;
+}
+
+.blog-post .post-date {
+  font-size: 0.85rem;
+  color: #B3BFA5;
+  margin-bottom: 1.5rem;
+}
+
+.blog-post .post-body p {
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  color: #6c665a;
+}
+
+/* Stats row */
+.market-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  flex: 1;
+  min-width: 160px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.stat-card .stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #7D8A6E;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.stat-card .stat-label {
+  font-size: 0.8rem;
+  color: #B3BFA5;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Callout box */
+.callout {
+  background: #D9CBB7;
+  border-left: 4px solid #7D8A6E;
+  border-radius: 0 8px 8px 0;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.callout h3 {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #6c665a;
+  margin: 0 0 0.5rem;
+}
+
+.callout p {
+  margin: 0;
+  line-height: 1.7;
+  color: #6c665a;
+}
+
+.callout small {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #7D8A6E;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .blog-page {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .blog-page h1 {
+    font-size: 2.8rem;
+  }
+
+  .blog-post {
+    padding: 1.5rem;
+  }
+
+  .blog-post .post-title {
+    font-size: 2.2rem;
+  }
+
+  .market-stats {
+    flex-direction: column;
+  }
+}
