@@ -36,7 +36,7 @@ const Footer = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://www.tiktok.com/"
+            href="https://www.tiktok.com/@lauren.gresham8?r=1&_t=ZP-94bXVOQkdTC"
             target="_blank"
             rel="noopener noreferrer"
           >
