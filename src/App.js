@@ -23,15 +23,15 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
 
       <div className="container">
         {/* Top Info Strip*/}
-        <div class="top-strip">
-          <span class="strip-span"> ✆ 801-340-9064</span>
-          <span class="strip-span"> ✉ nestedbylauren@gmail.com</span>
-          <span class="strip-span"> Lic # 14253188</span>
-          <span class="strip-span"> More Than Just an Agent—Your Trusted Partner and Counselor Through Every Real Estate Decision</span>
+        <div className="top-strip">
+          <span className="strip-span"> ✆ 801-340-9064</span>
+          <span className="strip-span"> ✉ lauren@nexthomegps.com</span>
+          <span className="strip-span"> Lic # 14253188</span>
+          <span className="strip-span"> More Than Just an Agent—Your Trusted Partner and Counselor Through Every Real Estate Decision</span>
         </div>
 
         <header className="header">

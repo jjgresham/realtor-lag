@@ -11,7 +11,7 @@ const Footer = () => {
           <h2>Contact</h2>
           <span>(801) 340-9064</span>
           <br></br>
-          <span>nestedbylauren@gmail.com</span>
+          <span>lauren@nexthomegps.com</span>
           <br></br>
           <span> Monday - Friday 8am to 5pm</span>
         </span>

@@ -37,7 +37,7 @@ function Contact() {
 
             <div className="contact-card">
               <h3>✉️ Email</h3>
-              <a href="mailto:nestedbylauren@gmail.com">nestedbylauren@gmail.com</a>
+              <a href="mailto:lauren@nexthomegps.com">lauren@nexthomegps.com</a>
             </div>
 
             <div className="contact-card">
