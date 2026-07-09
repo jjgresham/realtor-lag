@@ -16,7 +16,7 @@ function Home() {
       </section>
 
       {/* Services Section */}
-<section class="about-section">
+<section className="about-section">
                 <img
                 src={professionalPhoto}
                 alt="Lauren Gresham, Utah real estate agent serving Salt Lake City and Utah Valley"
@@ -52,7 +52,7 @@ function Home() {
           I’d love the opportunity to help you find your next home, investment, or space to grow.
         </p>
       </div>
-  <div class="signature">– Lauren</div>
+  <div className="signature">– Lauren</div>
 </section>
 
 

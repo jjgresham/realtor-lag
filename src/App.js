@@ -23,15 +23,15 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
 
       <div className="container">
         {/* Top Info Strip*/}
-        <div class="top-strip">
-          <span class="strip-span"> ✆ 801-494-3655</span>
-          <span class="strip-span"> ✉ nestedbylauren@gmail.com</span>
-          <span class="strip-span"> Lic # 14253188</span>
-          <span class="strip-span"> More Than Just an Agent—Your Trusted Partner and Counselor Through Every Real Estate Decision</span>
+        <div className="top-strip">
+          <span className="strip-span"> ✆ 801-340-9064</span>
+          <span className="strip-span"> ✉ lauren@nexthomegps.com</span>
+          <span className="strip-span"> Lic # 14253188</span>
+          <span className="strip-span"> More Than Just an Agent—Your Trusted Partner and Counselor Through Every Real Estate Decision</span>
         </div>
 
         <header className="header">
@@ -55,23 +55,13 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link to="https://www.utahrealestate.com/index/public.index" onClick={closeMenu}>
-                  Search Homes
+                <Link to="https://lauren.mosergrouputah.com/" onClick={closeMenu}>
+                  Find Homes
                 </Link>
               </li>
               <li>
                 <Link to="/contact" onClick={closeMenu}>
                   Contact Me
-                </Link>
-              </li>
-              <li>
-                <Link to="/mortgage-calculator" onClick={closeMenu}>
-                  Mortgage Calculator
-                </Link>
-              </li>
-             <li>
-                <Link to="/gallery" onClick={closeMenu}>
-                  Blog
                 </Link>
               </li>
             </ul>

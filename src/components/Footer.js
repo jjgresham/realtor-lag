@@ -9,16 +9,16 @@ const Footer = () => {
         {/* Left side - Contact Info */}
         <span className="footer-contact">
           <h2>Contact</h2>
-          <span>(801) 494-3655</span>
+          <span>(801) 340-9064</span>
           <br></br>
-          <span>nestedbylauren@gmail.com</span>
+          <span>lauren@nexthomegps.com</span>
           <br></br>
           <span> Monday - Friday 8am to 5pm</span>
         </span>
         {/* Middle - Logo */}
-        <div className="footer-logo">
+        {/* <div className="footer-logo">
           <img src="/logo.png" alt="Olympus Real Estate Logo" className="logo" />
-        </div>
+        </div> */}
         {/* Right side - Social Icons */}
         <div className="footer-social">
           <a
