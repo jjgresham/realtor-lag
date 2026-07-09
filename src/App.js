@@ -55,23 +55,13 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link to="https://www.utahrealestate.com/index/public.index" onClick={closeMenu}>
-                  Search Homes
+                <Link to="https://lauren.mosergrouputah.com/" onClick={closeMenu}>
+                  Find Homes
                 </Link>
               </li>
               <li>
                 <Link to="/contact" onClick={closeMenu}>
                   Contact Me
-                </Link>
-              </li>
-              <li>
-                <Link to="/mortgage-calculator" onClick={closeMenu}>
-                  Mortgage Calculator
-                </Link>
-              </li>
-             <li>
-                <Link to="/gallery" onClick={closeMenu}>
-                  Blog
                 </Link>
               </li>
             </ul>
