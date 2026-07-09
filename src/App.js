@@ -28,7 +28,7 @@ function App() {
       <div className="container">
         {/* Top Info Strip*/}
         <div class="top-strip">
-          <span class="strip-span"> ✆ 801-494-3655</span>
+          <span class="strip-span"> ✆ 801-340-9064</span>
           <span class="strip-span"> ✉ nestedbylauren@gmail.com</span>
           <span class="strip-span"> Lic # 14253188</span>
           <span class="strip-span"> More Than Just an Agent—Your Trusted Partner and Counselor Through Every Real Estate Decision</span>
